@@ -1,0 +1,110 @@
+Documento de Requisitos do Sistema Gerenciador de Eventos
+
+Introdução
+
+O Sistema Gerenciador de Eventos é uma plataforma tecnológica que visa facilitar e automatizar a gestão de eventos em diferentes escalas e contextos. Esse sistema é composto por uma série de módulos integrados que abrangem desde o planejamento e organização até a execução e análise pós-evento. Este documento tem como objetivo descrever as funcionalidades, requisitos e restrições do Sistema Gerenciador de Eventos.
+
+Requisitos Funcionais
+1.1. Inscrições
+
+O sistema deve permitir que os participantes se inscrevam para o evento informando seu nome completo, telefone, CPF e e-mail. (E)
+
+1.1.1 Validação de CPF
+
+O sistema deve validar se o CPF é válido. (O)
+
+1.1.2 Validação de e-mail
+
+O sistema deve verificar se o e-mail inserido é válido. (O)
+
+1.1.3 Validação de telefone
+
+O sistema deve verificar se o telefone inserido é válido. (O)
+
+1.2. Controle de Acessos
+
+O sistema deve permitir o controle de acessos de participantes, organizadores e palestrantes a áreas específicas do evento, de acordo com seus respectivos níveis de permissão. (E)
+
+1.2.1 Atribuir nível de permissão
+
+O sistema deve permitir a criação de perfis de usuários com diferentes níveis de permissão (participante, organizador e palestrante.) (E)
+
+1.2.2 Interface
+
+O sistema deve conter interface gráfica para que o administrador possa atribuir ou remover o nível de permissão. (E)
+
+1.3. Programação de Atividades
+
+O sistema deve permitir que os organizadores criem a programação de atividades do evento informando nome do evento, horário e palestrante. (E)
+
+1.3.1 Validação de horário
+
+O sistema deve validar se o horário inserido é válido. (O)
+
+1.3.2 Validação de palestrante
+
+O sistema deve validar se o palestrante é válido. (O)
+
+1.4. Administrador Responsável
+
+O sistema deve permitir que os organizadores definam um administrador responsável pelo evento. (E)
+
+1.4.1 Cadastro de Administrador responsável
+
+O sistema deve ter um campo para o organizador indicar o nome completo, email e CPF do administrador. (E)
+
+1.4.2 Ações do Administrador
+
+O sistema deve permitir que o organizador atribua permissões ao administrador responsável por gerenciar as atividades relacionadas ao evento. (E)
+
+1.4.3 Restrição a informações
+
+O sistema deve garantir que apenas o administrador responsável e o organizador tenham acesso às informações confidenciais do evento, como dados pessoais dos participantes e informações financeiras. (O)
+
+1.5. Controle Financeiro
+
+O sistema deve permitir que os organizadores tenham acesso às finanças do evento. Isso inclui a definição de preços, formas de pagamento, emissão de notas fiscais e outras operações financeiras relevantes. (E)
+
+1.5.1 Definição de preços
+
+O sistema deve permitir que o organizador especifique o preço do evento. (E)
+
+Requisitos Não Funcionais
+
+2.1. Usabilidade
+
+O sistema deve ser fácil de usar e acessível para usuários com diferentes níveis de habilidade tecnológica. Para garantir isso, o sistema deve contar com uma interface intuitiva e bem projetada, além de recursos de ajuda e suporte técnico disponíveis para os usuários.
+
+2.2. Desempenho
+
+O sistema deve ser capaz de lidar com um grande número de participantes e atividades simultaneamente, sem comprometer a performance. Para isso, o sistema deve ser projetado e desenvolvido levando em consideração as demandas de processamento e armazenamento de dados, além de contar com recursos de escalabilidade e redundância.
+
+2.3. Segurança
+
+O sistema deve garantir a segurança dos dados dos participantes e informações financeiras do evento. Para isso, o sistema deve contar com recursos de criptografia, autenticação, autorização e monitoramento de acesso, além de ser compatível com as normas e regulamentações de segurança de dados em vigor.
+
+2.4. Confiabilidade
+
+O sistema deve ser confiável e estar disponível durante todo o evento. Para garantir isso, o sistema deve contar com recursos de backup, redundância, monitoramento e recuperação de falhas, além de ser testado e validado antes do evento.
+
+2.5. Escalabilidade
+
+O sistema deve ser escalável para suportar eventos de diferentes tamanhos e escalas. Para isso, o sistema deve ser projetado e desenvolvido levando em consideração as demandas de processamento e armazenamento de dados, além de contar com recursos de escalabilidade horizontal e vertical.
+
+Restrições
+
+3.1. Tecnologia
+
+O sistema deve ser desenvolvido em uma plataforma tecnológica que suporte os requisitos funcionais e não funcionais descritos neste documento, além de ser compatível com as tecnologias e plataformas usadas pelos participantes do evento. A plataforma escolhida deve ser escalável, segura, confiável e de fácil manutenção.
+
+3.2. Orçamento
+
+O desenvolvimento e implementação do sistema devem respeitar o orçamento disponível para o projeto, incluindo os custos com hardware, software, mão de obra, treinamento e suporte técnico.
+
+3.3. Prazo
+
+O desenvolvimento e implementação do sistema devem ser concluídos dentro do prazo estabelecido para o projeto, levando em consideração as datas do evento e os prazos de entrega das diferentes funcionalidades e módulos do sistema.
+
+3.4. Legislação
+
+O sistema deve estar em conformidade com as leis e regulamentações em vigor no país onde o evento será realizado, incluindo as normas de proteção de dados pessoais e financeiros, as leis trabalhistas e as leis tributárias.
